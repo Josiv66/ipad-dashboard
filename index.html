@@ -5,15 +5,15 @@
   <title>Car Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 40px;
-      flex-direction: column;
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* changed from center */
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 40px 0 40px; /* top padding only */
+  flex-direction: column;
 }
 .dashboard {
   display: grid;
@@ -59,3 +59,4 @@
 </div>
 </body>
 </html>
+
